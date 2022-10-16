@@ -40,6 +40,7 @@ namespace Calculator
             // 
             // textBox1
             // 
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(112, 42);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
@@ -88,6 +89,7 @@ namespace Calculator
             // 
             // textBox2
             // 
+            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.Location = new System.Drawing.Point(112, 110);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
@@ -96,6 +98,7 @@ namespace Calculator
             // 
             // textBoxKetQua
             // 
+            this.textBoxKetQua.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxKetQua.Location = new System.Drawing.Point(112, 163);
             this.textBoxKetQua.Multiline = true;
             this.textBoxKetQua.Name = "textBoxKetQua";
