@@ -36,6 +36,7 @@ namespace Calculator
             this.btnCong = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBoxKetQua = new System.Windows.Forms.TextBox();
+            this.btnTru = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -105,11 +106,22 @@ namespace Calculator
             this.textBoxKetQua.Size = new System.Drawing.Size(200, 35);
             this.textBoxKetQua.TabIndex = 8;
             // 
+            // btnTru
+            // 
+            this.btnTru.Location = new System.Drawing.Point(54, 245);
+            this.btnTru.Name = "btnTru";
+            this.btnTru.Size = new System.Drawing.Size(107, 33);
+            this.btnTru.TabIndex = 9;
+            this.btnTru.Text = "Trừ";
+            this.btnTru.UseVisualStyleBackColor = true;
+            this.btnTru.Click += new System.EventHandler(this.btnTru_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(334, 316);
+            this.Controls.Add(this.btnTru);
             this.Controls.Add(this.textBoxKetQua);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.btnCong);
@@ -133,6 +145,7 @@ namespace Calculator
         private System.Windows.Forms.Button btnCong;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBoxKetQua;
+        private System.Windows.Forms.Button btnTru;
     }
 }
 
