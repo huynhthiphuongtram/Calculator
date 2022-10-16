@@ -33,9 +33,9 @@ namespace Calculator
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnCong = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBoxKetQua = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // textBox1
@@ -76,15 +76,15 @@ namespace Calculator
             this.label3.TabIndex = 5;
             this.label3.Text = "Kết quả";
             // 
-            // button1
+            // btnCong
             // 
-            this.button1.Location = new System.Drawing.Point(184, 245);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(107, 33);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Cộng";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnCong.Location = new System.Drawing.Point(184, 245);
+            this.btnCong.Name = "btnCong";
+            this.btnCong.Size = new System.Drawing.Size(107, 33);
+            this.btnCong.TabIndex = 6;
+            this.btnCong.Text = "Cộng";
+            this.btnCong.UseVisualStyleBackColor = true;
+            this.btnCong.Click += new System.EventHandler(this.btnCong_Click);
             // 
             // textBox2
             // 
@@ -94,22 +94,22 @@ namespace Calculator
             this.textBox2.Size = new System.Drawing.Size(200, 35);
             this.textBox2.TabIndex = 7;
             // 
-            // textBox3
+            // textBoxKetQua
             // 
-            this.textBox3.Location = new System.Drawing.Point(112, 163);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(200, 35);
-            this.textBox3.TabIndex = 8;
+            this.textBoxKetQua.Location = new System.Drawing.Point(112, 163);
+            this.textBoxKetQua.Multiline = true;
+            this.textBoxKetQua.Name = "textBoxKetQua";
+            this.textBoxKetQua.Size = new System.Drawing.Size(200, 35);
+            this.textBoxKetQua.TabIndex = 8;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(334, 316);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textBoxKetQua);
             this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnCong);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -127,9 +127,9 @@ namespace Calculator
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnCong;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBoxKetQua;
     }
 }
 
