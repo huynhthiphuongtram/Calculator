@@ -19,10 +19,13 @@ namespace Calculator
 
         private void btnCong_Click(object sender, EventArgs e)
         {
-            double a = double.Parse(textBox1.Text);
-            double b = double.Parse(textBox2.Text);
-            double c = a + b;
-            textBoxKetQua.Text = c.ToString();
+            if (textBox1.Text != string.Empty)
+            {
+                double a = double.Parse(textBox1.Text);
+                double b = double.Parse(textBox2.Text);
+                double c = a + b;
+                textBoxKetQua.Text = c.ToString();
+            }
         }
 
         private void btnTru_Click(object sender, EventArgs e)
