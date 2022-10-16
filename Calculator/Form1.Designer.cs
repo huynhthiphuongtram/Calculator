@@ -80,7 +80,7 @@ namespace Calculator
             // 
             // btnCong
             // 
-            this.btnCong.Location = new System.Drawing.Point(184, 245);
+            this.btnCong.Location = new System.Drawing.Point(205, 245);
             this.btnCong.Name = "btnCong";
             this.btnCong.Size = new System.Drawing.Size(107, 33);
             this.btnCong.TabIndex = 6;
@@ -108,7 +108,7 @@ namespace Calculator
             // 
             // btnTru
             // 
-            this.btnTru.Location = new System.Drawing.Point(54, 245);
+            this.btnTru.Location = new System.Drawing.Point(64, 245);
             this.btnTru.Name = "btnTru";
             this.btnTru.Size = new System.Drawing.Size(107, 33);
             this.btnTru.TabIndex = 9;
@@ -120,7 +120,7 @@ namespace Calculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(334, 316);
+            this.ClientSize = new System.Drawing.Size(354, 316);
             this.Controls.Add(this.btnTru);
             this.Controls.Add(this.textBoxKetQua);
             this.Controls.Add(this.textBox2);
